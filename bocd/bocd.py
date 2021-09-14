@@ -8,9 +8,10 @@ import scipy.stats
 #    https://github.com/hildensia/bayesian_changepoint_detection
 # under the MIT license.
 
+
 class BOCD(object):
     def __init__(self, hazard_function, observation_likelihood):
-        """Initializes th detector with zero observations.
+        """Initializes the detector with zero observations.
         """
         self.t0 = 0
         self.t = -1

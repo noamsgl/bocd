@@ -6,7 +6,7 @@ import numpy
 import numpy.random
 import numpy.linalg
 from functools import partial
-from bocd import * 
+from bocd import BOCD, StudentT, constant_hazard
 
 LAMBDA = 100
 ALPHA = 0.1
